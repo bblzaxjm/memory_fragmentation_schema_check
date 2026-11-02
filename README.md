@@ -1,11 +1,11 @@
-# recsys_jd272
+# memory_fragmentation_schema_check
 
 **校验推荐系统算法工程师·显存碎片与分配策略的字段结构并列出缺失项。**
 
-`recsys_jd272` —— 从样本里推断推荐系统算法工程师·显存碎片与分配策略应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
+`memory_fragmentation_schema_check` —— 从样本里推断推荐系统算法工程师·显存碎片与分配策略应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`recsys_jd272.py` 拷走就能用
+- 单文件，`memory_fragmentation_schema_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install bblzaxjm-recsys_jd272
+pip install bblzaxjm-memory_fragmentation_schema_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-recsys_jd272 --help
+memory_fragmentation_schema_check --help
 ```
 
-也可以不用安装，直接把 `recsys_jd272.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `memory_fragmentation_schema_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ recsys_jd272 --help
 ## 用法
 
 ```bash
-python recsys_jd272.py --file input.txt
-python recsys_jd272.py --text "示例内容"
-python recsys_jd272.py --file input.txt --json
+python memory_fragmentation_schema_check.py --file input.txt
+python memory_fragmentation_schema_check.py --text "示例内容"
+python memory_fragmentation_schema_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python recsys_jd272.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_recsys_jd272.py
+python test_memory_fragmentation_schema_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_recsys_jd272.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/bblzaxjm/recsys_jd272>
+- GitHub 仓库：<https://github.com/bblzaxjm/memory_fragmentation_schema_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_recsys_jd272.py
 bblzaxjm 做推荐系统算法工程师·显存碎片与分配策略相关的问题，方向对标腾讯的架构推荐系统算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://bblzaxjm.github.io>
-- 仓库：<https://github.com/bblzaxjm/recsys_jd272>
+- 仓库：<https://github.com/bblzaxjm/memory_fragmentation_schema_check>
 
 ## 许可
 

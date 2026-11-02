@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bblzaxjm-recsys_jd272"
+name = "bblzaxjm-memory_fragmentation_schema_check"
 version = "0.1.0"
 description = "从样本里推断推荐系统算法工程师·显存碎片与分配策略应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bblzaxjm.github.io"
-Repository = "https://github.com/bblzaxjm/recsys_jd272"
-Issues = "https://github.com/bblzaxjm/recsys_jd272/issues"
+Repository = "https://github.com/bblzaxjm/memory_fragmentation_schema_check"
+Issues = "https://github.com/bblzaxjm/memory_fragmentation_schema_check/issues"
 
 [project.scripts]
-recsys_jd272 = "recsys_jd272:main"
+memory_fragmentation_schema_check = "memory_fragmentation_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["recsys_jd272"]
+py-modules = ["memory_fragmentation_schema_check"]
